@@ -2,7 +2,7 @@ import numpy as np
 
 def main():
     input = []
-    with open('input3.txt', 'r') as f:
+    with open('input03.txt', 'r') as f:
         for line in f.readlines():
             input.append(list(line[:-1]))
     input = np.array(input, dtype=int)

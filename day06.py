@@ -1,7 +1,7 @@
 import numpy as np
 
 def main():
-    input = np.loadtxt('input6.txt', delimiter=',', dtype=int)
+    input = np.loadtxt('input06.txt', delimiter=',', dtype=int)
     no_fish = np.zeros(shape=(9), dtype=int)
     for x in input:
         no_fish[x]+=1

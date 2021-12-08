@@ -1,7 +1,7 @@
 import numpy as np
 
 def main():
-    input = np.loadtxt('input1.txt')
+    input = np.loadtxt('input01.txt')
     print('part one: ' , part_one(input))
     print('part two: ' , part_two(input))
 
