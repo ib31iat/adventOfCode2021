@@ -2,7 +2,7 @@ import numpy as np
 
 def main():
     lines = []
-    with open('input5.txt', 'r') as f:
+    with open('input05.txt', 'r') as f:
          for line in f.readlines():
             line_split = line.split(',')
             line_split2 = line_split[1].split('->')

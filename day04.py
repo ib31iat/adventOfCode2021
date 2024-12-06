@@ -3,7 +3,7 @@ from numpy.core.fromnumeric import shape
 
 def main():
     input = []
-    with open('input4.txt', 'r') as f:
+    with open('input04.txt', 'r') as f:
         numbers = np.array(f.readline().split(','), dtype=int)
         lines = f.readlines()
     

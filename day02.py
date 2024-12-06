@@ -7,7 +7,7 @@ def main():
 def part_one():
     x = 0
     y = 0
-    with open('input2.txt', 'r') as f:
+    with open('input02.txt', 'r') as f:
         for line in f.readlines():
             line_split = line.split(' ')
             direction = line_split[0]
